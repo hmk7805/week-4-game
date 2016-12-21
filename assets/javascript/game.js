@@ -1,9 +1,3 @@
-//random number generated
-//4 crystal buttons
-//when the game starts a random number is generated for each crystal
-//when a crystal is clicked it prints out the value to another area 
-//for all of the crystals clicked it updates that number to give the sum
-//logic, if the number sum 
 $(document).ready(function(){
 	fullReset()
 	var diamond;
