@@ -1,8 +1,34 @@
 * {
 	box-sizing: border-box;
 }
+
+
+
+.boxes {
+
+	width:200px;
+	height:200px;
+	margin:20px;
+	padding:20px;
+
+}
+
+.crystal {
+	height:200px; 
+	width:200px;
+}
+
 .block {
-	background-color: blue;
+	background-color: rgba(23, 50, 90, 0.80);
+	padding:20px;
+	margin:20px;
+	border:5px;
+	border-color: #FFFFFF;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.score {
+	background-color: rgba(90, 23, 82, 0.70);
 	padding:20px;
 	margin:20px;
 	border:5px;
@@ -11,17 +37,24 @@
 	color: #FFFFFF;
 }
 
+@media  screen and (max-width: 640px) {
+.block, .score {
+	padding: 10px;
+	margin: 10px;
+}
 .crystal {
 	height:100px; 
 	width:100px;
+	}
 }
 
-.score {
-	background-color: red;
-	padding:20px;
-	margin:20px;
-	border:5px;
-	border-color: #FFFFFF;
-	font-size: 15px;
-	color: #FFFFFF;
+@media  screen and (max-width: 400px) {
+.block, .score {
+	padding: 10px;
+	margin: 10px;
+}
+.crystal {
+	height:100px; 
+	width:100px;
+	}
 }
